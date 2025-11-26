@@ -6,11 +6,12 @@ public class ConsoleApp
     {
         var input = new Input();
 
-        string name = input.AskForName("What is your name? ");
-        string hairCol = input.AskForHairCol("What is your hair color? ");
-        string doingNow = input.AskForDoingNow("What are you doing right now?");
-        int age = input.AskForAge("What is your age? ");
+        string name = input.AskForDetails("What is your name? ");
+        string hairCol = input.AskForDetails("What is your hair color? ");
+        string doingNow = input.AskForDetails("What are you doing right now?");
+        string doingTonight = input.AskForDetails("What will you do tonight?");
+        int age = Convert.ToInt32(input.AskForDetails("What is your age? "));
         
-        Console.WriteLine($"Hi, my name is {name}. I'm {age} years old and I have {hairCol} hair.\n {doingNow} \n");
+        Console.WriteLine($"Hi, my name is {name}. I'm {age} years old and I have {hairCol} hair.\n{doingNow} \n{doingTonight}");
     }
 }
