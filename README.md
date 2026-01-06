@@ -3,7 +3,7 @@
 This repository contains the pair programming assignments completed during **Emne 3** at GET Academy.  
 Every other week, students are paired together to solve a small C# challenge in a limited timeframe.
 
-## 💡 What Is Par-Programmering?
+## What Is Par-Programmering?
 
 “Par-programmering” (pair programming) is a collaborative programming style where:
 
@@ -15,7 +15,7 @@ Every other week, students are paired together to solve a small C# challenge in 
 
 This helps develop communication, problem-solving, and cooperative coding skills.
 
-## 🎯 Purpose of This Repo
+## Purpose of This Repo
 
 The goal is to:
 
@@ -25,7 +25,7 @@ The goal is to:
 - Learn to structure small projects quickly  
 - Develop clean code habits in collaborative environments
 
-## 🧩 Assignments
+## Assignments
 
 Each folder represents a weekly pair programming task.  
 Assignments vary, but typically include:
@@ -36,14 +36,7 @@ Assignments vary, but typically include:
 - basic C# classes and methods  
 - simple game or simulation tasks  
 
-## 🛠️ How to Run
-
-1. Clone the repository  
-2. Open any assignment folder  
-3. Run the project through **JetBrains Rider** or **Visual Studio**  
-4. Use `dotnet run` if running via terminal
-
-## 👫 Collaboration Notes
+## Collaboration Notes
 
 - The commit history may include contributions from different partners.  
 - The goal is not perfection, but learning to communicate and solve problems together.  
