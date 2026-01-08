@@ -11,6 +11,6 @@ public class StoreItem
     
     public void PrintStoreItems()
     {
-        Console.WriteLine($"Item: {Name}");
+        Console.WriteLine($"- {Name}");
     }
 }
