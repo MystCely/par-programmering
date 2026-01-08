@@ -7,10 +7,16 @@ public class Character
 
     public List<string> Inventory = new List<string>();
 
-    public Character(string name, string house, List<string> inventory)
+    public Character(string name, string house)
     {
         Name = name;
         House = house;
-        Inventory = inventory;
+        // Inventory = inventory;
     }
+
+    public void PrintCharacterInfo()
+    {
+        Console.WriteLine($"Name: {Name}, House: {House}");
+    }
+    
 }

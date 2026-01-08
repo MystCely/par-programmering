@@ -2,14 +2,10 @@ namespace HarryPottah;
 
 public class MagicStore
 {
+    public List<StoreItem> StoreItem = new List<StoreItem>();
 
-    // public MagicStore(List<string> storeItem)
-    // {
-    //     StoreItem = storeItem;
-    // }
-
-    public void PrintStoreItems()
+    public MagicStore(List<StoreItem> storeItem)
     {
-        Console.WriteLine();
+        StoreItem = storeItem;
     }
 }
