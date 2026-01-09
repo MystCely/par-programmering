@@ -2,10 +2,16 @@ namespace HarryPottah;
 
 public class MagicStore
 {
-    public List<StoreItem> StoreItem = new List<StoreItem>();
+    private List<StoreItem> _items;
 
-    public MagicStore(List<StoreItem> storeItem)
+    public MagicStore(List<StoreItem> items)
     {
-        StoreItem = storeItem;
+        _items = items;
+    }
+
+    public StoreItem? GetItemByName(string name)
+    {
+        return _items.FirstOrDefault(i =>
+            i.Name.Equals(name, StringComparison.OrdinalIgnoreCase));
     }
 }

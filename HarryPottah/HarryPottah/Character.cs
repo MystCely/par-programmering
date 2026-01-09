@@ -2,16 +2,18 @@ namespace HarryPottah;
 
 public class Character
 {
-    public string Name { get; set; }
-    public string House { get; set; }
+    public string Name { get; }
+    public string House { get; }
+    public int Gold { get; set; }
 
-    public List<string> Inventory = new List<string>();
+    public List<StoreItem> Inventory { get; }
 
-    public Character(string name, string house)
+    public Character(string name, string house, int gold)
     {
         Name = name;
         House = house;
-        // Inventory = inventory;
+        Gold = gold;
+        Inventory = new List<StoreItem>();
     }
 
     public void PrintCharacterInfo()
